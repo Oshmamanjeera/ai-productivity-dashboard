@@ -1,3 +1,5 @@
+// openai.js
+// Minor comment to force redeploy
 import axios from 'axios';
 
 export async function getGPTResponse(message) {
