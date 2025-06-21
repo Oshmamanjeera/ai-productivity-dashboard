@@ -34,7 +34,7 @@ app.post('/api/chat', async (req, res) => {
       }
     );
 
-    const reply = response.data.choices[0].message.content;
+    const reply = response.data.choices[0].message.content;7766Y8UY
     res.json({ reply }); // ✅ frontend expects { reply: "..." }
 
   } catch (error) {
@@ -44,13 +44,13 @@ app.post('/api/chat', async (req, res) => {
 });
 
 // ✅ Serve React build
-const buildPath = path.resolve(__dirname, '..', 'build');
-app.use(express.static(buildPath));
+//const buildPath = path.resolve(__dirname, '..', 'build');
+//app.use(express.static(buildPath));
 
 // ✅ Catch-all route
-app.get('*', (req, res) => {
-  res.sendFile(path.join(buildPath, 'index.html'));
-});
+//app.get('*', (req, res) => {
+  //res.sendFile(path.join(buildPath, 'index.html'));
+//});
 
 // ✅ Start server
 const PORT = process.env.PORT || 5050;
