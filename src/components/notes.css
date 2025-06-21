@@ -1,0 +1,28 @@
+/* Notes.css */
+.notes-container {
+  padding: 0.5rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.note {
+  background-color: white;
+  border-left: 4px solid #007bff;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.note button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1rem;
+  cursor: pointer;
+}

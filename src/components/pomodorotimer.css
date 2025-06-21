@@ -1,0 +1,28 @@
+.pomodoro-container {
+  padding: 2rem;
+  background-color: #fdf6e3;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.pomodoro-container h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.pomodoro-container .buttons button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #ff6347;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pomodoro-container .buttons button:hover {
+  background-color: #ff3b1f;
+}
