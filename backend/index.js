@@ -34,7 +34,7 @@ app.post('/api/chat', async (req, res) => {
       }
     );
 
-    const reply = response.data.choices[0].message.content;7766Y8UY
+    const reply = response.data.choices[0].message.content;
     res.json({ reply }); // ✅ frontend expects { reply: "..." }
 
   } catch (error) {
