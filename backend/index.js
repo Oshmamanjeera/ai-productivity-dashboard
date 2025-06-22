@@ -52,6 +52,10 @@ app.post('/api/chat', async (req, res) => {
   //res.sendFile(path.join(buildPath, 'index.html'));
 //});
 
+app.get('/api/chat', (req, res) => {
+  res.json({ message: '✅ Backend is running!' });
+});
+
 // ✅ Start server
 const PORT = process.env.PORT || 5050;
 app.listen(PORT, () => {
